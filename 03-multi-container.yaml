@@ -8,4 +8,4 @@ spec:
     image: nginx
   - name: alma
     image: "almalinux:9"
-    command: "sleep 2000"
+    command: ["sleep","2000"]
