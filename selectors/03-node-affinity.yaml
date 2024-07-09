@@ -8,11 +8,11 @@ spec:
       preferredDuringSchedulingIgnoredDuringExecution:
       - weight: 1
         preference:
-        matchExpressions:
-        - key: project
-          operator: In
-          values:
-          - expense
+          matchExpressions:
+          - key: project
+            operator: In
+            values:
+            - expense
   containers:
   - name: with-node-affinity
     image: nginx
