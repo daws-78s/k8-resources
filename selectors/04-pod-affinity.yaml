@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-1
+  labels:
+    name: pod-1
+    purpose: affinity
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    imagePullPolicy: Always # keep this as always
