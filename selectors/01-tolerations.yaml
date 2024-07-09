@@ -14,3 +14,6 @@ spec:
     operator: "Equal"
     value: "expense"
     effect: "NoSchedule"
+  - key: "project"
+    operator: "Exists"
+    effect: "NoSchedule"
