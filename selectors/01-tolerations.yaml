@@ -9,8 +9,6 @@ spec:
   - name: nginx
     image: nginx
     imagePullPolicy: Always # keep this as always
-  nodeSelector:
-    project: expense
   tolerations:
   - key: "project"
     operator: "Equal"
