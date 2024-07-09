@@ -51,7 +51,7 @@ spec:
             operator: In
             values:
             - pod-1
-        topologyKey: topology.kubernetes.io/zone
+        topologyKey: "kubernetes.io/hostname"
   containers:
   - name: nginx
     image: nginx
